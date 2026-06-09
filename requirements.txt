@@ -1,0 +1,2 @@
+yt-dlp
+win11toast; sys_platform == 'win32'
