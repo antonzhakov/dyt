@@ -36,6 +36,9 @@ pip install -r requirements.txt
 *(Note: If you want to use the `dyt` command from anywhere on your computer, you must add the `dyt` project directory to your Windows System `PATH`. You can do this instantly by running this command in PowerShell while inside the `dyt` folder:)*
 ```powershell
 [Environment]::SetEnvironmentVariable("PATH", $Env:PATH + ";$PWD", [EnvironmentVariableTarget]::User)
+```
+
+*(After running this command, you will need to restart your terminal for the changes to take effect.)*
 
 ## Usage
 You can launch the downloader using the global `dyt` command. It features a hybrid interface: you can use the interactive wizard, or bypass it entirely using command-line flags.
@@ -60,6 +63,7 @@ You can skip the interactive wizard by providing your preferences as flags. Add 
 - `-t`, `--title`: Custom filename.
 - `-o`, `--output`: Custom download folder for this specific run.
 - `-d`, `--defaults`: Skip remaining interactive prompts.
+
 **Examples:**
 Download a 1080p English video silently (no prompts):
 ```powershell
