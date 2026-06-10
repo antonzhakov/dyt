@@ -18,7 +18,7 @@ To use this downloader, you will need a few system-level dependencies installed 
 
 1. **Clone the repository:**
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/antonzhakov/dyt.git
 cd dyt
 ```
 
